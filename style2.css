@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.head {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+    background-color: white;
+    height: 70px;
+
+}
+
+.head_circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #c4c4c4;
+}
+
+.hed_saray {
+    height: 25px;
+}
+
+.lik {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    margin-left: 450px;
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.left {
+    align-items: center;
+    display: flex;
+    margin-left: 140px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.chat {
+    width: 29px;
+    cursor: pointer;
+}
+
+
+.inputCont {
+    margin-left: 200px;
+
+
+}
+
+.Search {
+    width: 270px;
+    height: 45px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    padding-left: 35px;
+}
+
+
+
+.account {
+    margin-top: 20px;
+    width: 700px;
+}
+
+.avatar {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(242, 242, 242, 1);
+}
+
+
+
+.right_up {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    padding-left: 50px;
+
+    img {
+        width: 37px;
+        height: 37px;
+        cursor: pointer;
+    }
+}
+
+.nick {
+    font-size: 30px;
+}
+
+.reacts {
+
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.nam_sur {
+    padding-top: 10px;
+
+}
+
+.posts {
+    display: flex;
+    gap: 5px;
+}
+
+.followers {
+    display: flex;
+    gap: 5px;
+}
+
+.followings {
+    display: flex;
+    gap: 5px;
+}
+
+.num {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tex {
+    font-size: 20px;
+}
+
+.but {
+    all: unset;
+    border: 1px solid #c4c4c4;
+    width: 96px;
+    height: 13px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.divider {
+    width: 50%;
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+.photos {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.one,
+.two,
+.three {
+    display: flex;
+    gap: 20px;
+}
+
+.photo {
+    width: 400px;
+    height: 300px;
+    background: rgba(229, 229, 229, 1);
+
+}
